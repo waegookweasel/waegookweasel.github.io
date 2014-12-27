@@ -1,0 +1,25 @@
+main {
+  width: 60%;
+  margin: 5% 10%;
+}
+body {
+  font-family: Geneva;
+}
+#post-titleblock div h4 {
+  color: dimgray;
+}
+#post-titleblock div:nth-child(1) {
+  font-size: small;
+  text-align: center;
+}
+#post-titleblock div:nth-child(2) {
+  width: 80%;
+  margin: auto;
+}
+#post-titleblock div:nth-child(3) {
+  font-size: smaller;
+}
+section {
+  color: dimgray;
+}
+
