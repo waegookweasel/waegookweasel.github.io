@@ -1,0 +1,68 @@
+html {
+  background: url(../imgs/spider.jpg) no-repeat  center center fixed;
+  background-size: cover;
+}
+body {
+  margin: 0px;
+  font-family: Trebuchet MS;
+}
+html {
+  margin: 0px;
+}
+header {
+  background-color: black;
+  width: 100%;
+  height: 120px;
+}
+header h1 {
+ color: white;
+ font-family: Trebuchet MS;
+ margin-left: 20px;
+ letter-spacing: 0.25em;
+}
+header div a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+  header div {
+  margin-top: 34px;
+  margin-right: 34px;
+  vertical-align: middle;
+  float: right;
+}
+nav {
+  display: block;
+  color: blue;
+}
+nav a {
+  display: inline-block;
+  width:19%;
+  font-size: larger;
+  text-decoration: none;
+  text-align: center;
+  color: #050025;
+}
+nav a:hover {
+  color: #FF2965;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  bottom: 0px;
+}
+footer p {
+  float: right;
+  color: white;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 20px;
+  font-size: smaller;
+}
+footer img {
+  float: right;
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 16px;
+}
