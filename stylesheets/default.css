@@ -71,3 +71,14 @@ footer img {
   margin-top: 16px;
   margin-right: 16px;
 }
+.blogbutton {
+  width: 380px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  background-color: white;
+  opacity: .75;
+  margin: 5px;
+  padding: 4px;
+  text-align: center;
+}
