@@ -21,5 +21,6 @@ body {
 section {
   color: #181724;
 }
-
-
+section img {
+  margin: 20px
+}
