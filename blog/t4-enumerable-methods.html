@@ -15,22 +15,43 @@
   <h1>Cycle: Ruby Enumerable Method</h1>
   </div>
   <div>
-    <h2>The subtitle, if you want it</h2>
+    <h2>You should probably learn ctrl + C first.</h2>
   </div>
 </div>
 <hr>
   <section>
-    <p>
-        abc<!-- paragraph 1 -->
+    <p>Good thing I learned ctrl + C before I learned the method <code>cycle</code></p>
+    <p>I tried this first:</p>
+    <code> a= ["a", "b", "c"]<br>
+      a.cycle {|x| puts x}
+    </code>
+    <p>Things got a little wild. Things I can't show here.</p>
+    <p>cycle enumerates like each, but starts over at the end. This causes an infinite loop, much like: </p>
+    <code>while (true) do<br>
+      …<br>
+      end</code>
+    <p>Adding the (5) parameter to the cycle method will keep you from getting trapped in an infinite loop! Combining cycle with puts is like asking your copier to make 5 copies.
     </p>
-    <p>
-        <!-- paragraph 2 -->
-    </p>
-    <p>
-        <!-- paragraph 3 -->
-    </p>
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+    <code> a= ["a", "b", "c"]<br>
+      a.cycle(5) {|x| puts x}
+    </code>
+    <p>Output:</p>
+    <code>a<br>
+      b<br>
+      c<br>
+      a<br>
+      b<br>
+      c<br>
+      a<br>
+      b<br>
+      c<br>
+      a<br>
+      b<br>
+      c<br>
+      a<br>
+      b<br>
+      c<br>
+      </code>
   </section>
 </main>
 </html>
