@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Title Here</title>
+  <title>Web Security</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
@@ -9,28 +9,47 @@
 <main>
 <div id="post-titleblock">
   <div>
-    <h4>Today's Date</h4>
+    <h4>February 15, 2015</h4>
   </div>
   <div>
-  <h1>Post Title</h1>
+  <h1>Web Security</h1>
   </div>
   <div>
-    <h2>The subtitle, if you want it</h2>
+    <h2>Security Concerns and Certificate Testing</h2>
   </div>
 </div>
 <hr>
   <section>
     <p>
-        abc<!-- paragraph 1 -->
+    As I’m beginning to consider what kinds of apps to create, security is one of my top concerns. Exploring security is one of the reasons I became interested in becoming a developer. Humans are putting a lot of faith in machines and systems to store sensitive information without really understanding how the machines and systems work.
     </p>
     <p>
-        <!-- paragraph 2 -->
+    Within web security, there is a vast number of ways that security can be compromised. Below are some common vulnerabilities:
+      <ol>
+        <li>Injection
+        <li>Broken Authentication
+        <li>Cross-site Scripting
+        <li>Insecure Direct Object References
+        <li>Security Misconfiguration
+      </ol>
     </p>
     <p>
-        <!-- paragraph 3 -->
+    Although a couple of years old, OWASP has a comprehensive <a href="https://www.owasp.org/index.php/Top10#OWASP_Top_10_for_2013">pdf download</a> listing the top vulnerabilities.
     </p>
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+    <p>
+    If you have an https site, QUALYS SSL LABS has a tool that can check your certificate and provide feedback about your site’s security.
+    </p>
+    <p>
+    Dev Bootcamp’s site scored pretty well!
+    </p>
+    <img src="../imgs/sslgrade.png" alt="ssl grade">
+    <p>
+    In addition to a letter grade, the site provides a detailed report!
+    </p>
+    <img src="../imgs/sslreport.png" alt="ssl report">
+    <p>
+    The site recommends that a stronger signature is used when upgrading to a new certificate, although it's not critical.
+    </p>
   </section>
 </main>
 </html>
